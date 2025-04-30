@@ -1,0 +1,12 @@
+{
+  "name": "sloveniangooner/nova-searchable-select",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Sloveniangooner\\SearchableSelect\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.1"
+  }
+}
