@@ -1,12 +1,22 @@
 {
   "name": "sloveniangooner/nova-searchable-select",
+  "description": "Nova Searchable Select Field",
   "type": "library",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "Sloveniangooner\\SearchableSelect\\": "src/"
     }
   },
   "require": {
-    "php": ">=7.1"
+    "php": ">=7.1",
+    "laravel/nova": "^3.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Sloveniangooner\\SearchableSelect\\FieldServiceProvider"
+      ]
+    }
   }
 }
